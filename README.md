@@ -83,6 +83,19 @@ PORT=4000
 
 > Note: The `DB_HOST=db` must match the name of your MySQL service in `docker-compose.yml`.
 
+## 🛠️ Setup Before Docker Build (Optional)
+
+If you plan to run the app **locally without Docker**, install dependencies first:
+
+```bash
+# Frontend
+cd frontend
+npm install
+
+# Backend
+cd backend
+npm install
+
 ---
 
 ## 🧑‍💻 Development Commands
