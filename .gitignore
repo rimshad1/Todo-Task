@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# production
+dist/
+build/
+
+# misc
+.DS_Store
+*.log
+*.lock
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
