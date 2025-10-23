@@ -43,6 +43,7 @@ const Home = () => {
       toast.success(res.data.message);
       setDescription("");
       fetchTasks();
+      console.log("dara", res);
     } catch (error) {
       toast.success(error.response?.data?.message);
     }

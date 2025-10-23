@@ -77,7 +77,7 @@ Create a `.env` file in the server folder:
 DB_HOST=db
 DB_USER=root
 DB_PASS=
-DB_NAME=task_db
+DB_NAME=projects
 PORT=4000
 ```
 
